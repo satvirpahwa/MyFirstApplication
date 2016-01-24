@@ -9,15 +9,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.telephony.SmsManager;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -47,7 +43,9 @@ public class Tab1 extends Activity implements OnClickListener {
             btnTimePicker.setOnClickListener(this);
             btnSubmit.setOnClickListener(this);
         }
-
+private void testfunction(){
+    int i = 1+1;
+}
     @Override
     public void onClick(View v) {
 
